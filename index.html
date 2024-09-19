@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Clothes Store</title>
 </head>
 
@@ -20,8 +21,14 @@
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="card.html"><i class="fa fa-shopping-cart"></i></a></li>
+                <li id="lg-bag"><a href="card.html"><i class="fa fa-shopping-cart"></i></a></li>
+            
+                <a href="#" id="close"><i class="fa fa-times"></i></a>
             </ul>
+        </div>
+        <div id="mobile">
+            <i class="fa fa-shopping-cart"></i>
+            <i id="bar" class="fa fa-outdent"></i>
         </div>
     </header>
     <section id="hero">
@@ -394,7 +401,7 @@
             <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
 
         </div>
-        <div id="form" >
+        <div id="form">
             <input type="text" placeholder="Your email adress">
             <button class="normal">Sign Up</button>
         </div>
