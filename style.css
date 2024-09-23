@@ -974,3 +974,29 @@ footer .copyright {
     color: #c9cbce;
     z-index: -9;
 }
+
+/* About page */
+#page-header.about-header{
+    background-image: url(img/knowUsMain.jpg);
+
+}
+#about-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#about-head img{
+    width: 50%;
+    height: auto;
+
+
+}
+.marquee{
+    width: 100%;
+    background-color: #ccc;
+
+}
+#about-head div{
+    padding-left: 40px;
+    
+}
