@@ -1133,6 +1133,10 @@ footer .copyright {
         width: 50%;
 
     }
+    /* Cart Page */
+    #cart-section{
+        overflow-x: auto;
+    }
 
 
 }
@@ -1285,6 +1289,17 @@ footer .copyright {
         margin-bottom: 30px;
     }
 
+    /* Cart Page */
+    #cart-add{
+        flex-direction: column;
+    }
+    #coupon{
+        width: 100%;
+    }
+    #subtotal{
+        width: 100%;
+        padding: 20px;
+    }
 
 
 
